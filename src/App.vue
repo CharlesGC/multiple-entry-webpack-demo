@@ -1,0 +1,49 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: Charles Guo
+ * @Date: 2021-12-13 23:13:28
+ * @LastEditors: Charles Guo
+ * @LastEditTime: 2021-12-14 00:17:33
+-->
+<template>
+    <div>
+        <HelloWorld />
+    </div>
+</template>
+
+<script>
+import HelloWorld from '@/components/HelloWorld.vue'
+export default {
+    props: {
+
+    },
+    data() {
+        return {
+
+        };
+    },
+    computed: {
+
+    },
+    created() {
+
+    },
+    mounted() {
+
+    },
+    watch: {
+
+    },
+    methods: {
+
+    },
+    components: {
+        HelloWorld
+    },
+};
+</script>
+
+<style scoped lang="scss">
+
+</style>
