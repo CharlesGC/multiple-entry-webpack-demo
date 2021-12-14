@@ -2,13 +2,13 @@
  * @Descripttion: 
  * @version: 
  * @Author: Charles Guo
- * @Date: 2021-12-13 23:15:16
+ * @Date: 2021-12-14 13:34:30
  * @LastEditors: Charles Guo
- * @LastEditTime: 2021-12-14 13:39:30
+ * @LastEditTime: 2021-12-14 13:34:30
 -->
 <template>
     <div>
-        hello world 666 777 888 999
+        async component
     </div>
 </template>
 
@@ -38,7 +38,7 @@ export default {
 
     },
     components: {
-        
+
     },
 };
 </script>

@@ -2,17 +2,19 @@
  * @Descripttion: 
  * @version: 
  * @Author: Charles Guo
- * @Date: 2021-12-13 23:15:16
+ * @Date: 2021-12-13 23:13:28
  * @LastEditors: Charles Guo
- * @LastEditTime: 2021-12-14 13:39:30
+ * @LastEditTime: 2021-12-14 13:39:39
 -->
 <template>
     <div>
-        hello world 666 777 888 999
+        <HelloWorld />
+        <AsyncComponent />
     </div>
 </template>
 
 <script>
+import HelloWorld from '@/components/HelloWorld.vue'
 export default {
     props: {
 
@@ -38,7 +40,8 @@ export default {
 
     },
     components: {
-        
+        HelloWorld,
+        AsyncComponent: () => import('@/components/AsyncComponent.vue')
     },
 };
 </script>
